@@ -11,4 +11,7 @@ export class ProductsService {
   findAll(): Product[] {
     return this.products;
   }
+  findOne(id){
+    console.log(id)
+  }
 }

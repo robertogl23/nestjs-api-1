@@ -1,7 +1,7 @@
 export interface Product {
   nameProduct: string;
   price: Float32Array;
-  quantity: Number;
+  quantity: Float32Array;
   description: string;
   providers: string;
   height: Float32Array;
